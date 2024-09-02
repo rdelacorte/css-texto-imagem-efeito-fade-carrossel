@@ -1,5 +1,16 @@
 
+/* 1) Crie dois containers. No primeiro, coloque os textos (use o widget de título, e deixe como H2 na tag HTML). No segundo, coloque as imagens.
 
+2) No container dos textos, adicione a classe: container-textos
+
+3) No container das imagens, adicione a classe: container-imagens
+
+4) Nos textos, adicione as classes: texto1, texto2, texto3 (uma em cada texto).
+
+5) Faça o mesmo nas imagens e adicione as classes: imagem1, imagem2, imagem3 (uma em cada imagem). 
+Por fim, adicione o código abaixo no CSS personalizado da página:
+
+6) Adicione o código abaixo no CSS personalizado da página: */
 .container-imagens{
     width: 100%;
     position: relative;
