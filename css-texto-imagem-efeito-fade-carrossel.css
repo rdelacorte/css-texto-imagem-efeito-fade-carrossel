@@ -1,0 +1,221 @@
+
+
+.container-imagens{
+    width: 100%;
+    position: relative;
+}
+
+@keyframes cf4FadeInOut1 {
+    0% {
+        opacity:1;
+        transform: rotate(-4deg); 
+    }
+    17% {
+        opacity:1;
+        transform: rotate(-1deg);
+    }
+    25% {
+        opacity:0;
+        transform: rotate(3deg) scale(0.8, 0.8) rotateY(20deg);
+    }
+    92% {
+        opacity:0;
+        transform: rotate(-1deg) scale(0.8, 0.8);
+    }
+    100% {
+        opacity:1;
+        transform: rotate(-4deg) scale(1, 1);
+    }
+}
+
+@keyframes cf4FadeInOut1_text {
+    0% {
+        opacity:1;
+    }
+    17% {
+        opacity:1;
+    }
+    25% {
+        opacity:0;
+    }
+    92% {
+        opacity:0;
+    }
+    100% {
+        opacity:1;
+    }
+}
+
+@keyframes cf4FadeInOut2 {
+    0% {
+        opacity: 0;
+        transform: rotate(-3deg); 
+    }
+    17% {
+        opacity: 0;
+        transform: rotate(-3deg);
+    }
+    25% {
+        opacity: 0;
+        transform: rotate(-4deg) scale(0.8, 0.8);
+    }
+    33% {
+        opacity: 1;
+        transform: rotate(0deg) scale(1, 1);
+    }
+    50% {
+        opacity: 1;
+        transform: rotate(4deg) scale(1, 1);
+    }
+    58% {
+        opacity: 0;
+        transform: rotate(0deg) scale(0.8, 0.8);
+    }
+    92% {
+        opacity:0;
+    }
+    100% {
+        opacity:0;
+        transform: rotate(4deg) scale(1, 1);
+    }
+}
+
+@keyframes cf4FadeInOut2_text {
+    0% {
+        opacity: 0; 
+    }
+    17% {
+        opacity: 0;
+    }
+    25% {
+        opacity: 0;
+    }
+    33% {
+        opacity: 1;
+    }
+    50% {
+        opacity: 1;
+    }
+    58% {
+        opacity: 0;
+    }
+    92% {
+        opacity:0;
+    }
+    100% {
+        opacity:0;
+    }
+}
+
+@keyframes cf4FadeInOut3 {
+    0% {
+        opacity: 0;
+        transform: rotate(-4deg) scale(0.8, 0.8); 
+    }
+    58% {
+        opacity: 0;
+        transform: rotate(-4deg) scale(0.8, 0.8);
+    }
+    66% {
+        opacity: 1;
+        transform: rotate(0deg) scale(1, 1);
+    }
+    83% {
+        opacity: 1;
+        transform: rotate(4deg) scale(1, 1);
+    }
+    92% {
+        opacity: 0;
+        transform: rotate(0deg) scale(0.8, 0.8);
+    }
+    100% {
+        opacity: 0;
+        transform: rotate(-4deg) scale(0.8, 0.8);
+    }
+}
+
+@keyframes cf4FadeInOut3_text {
+    0% {
+        opacity: 0;
+    }
+    58% {
+        opacity: 0;
+    }
+    66% {
+        opacity: 1;
+    }
+    83% {
+        opacity: 1;
+    }
+    92% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 0;
+    }
+}
+
+.container-imagens img, .container-textos h2 {
+    position: absolute;
+    left: 0;
+
+    animation-delay: 0;
+    -webkit-animation-name: cf4FadeInOut1;
+    -webkit-animation-timing-function: ease-in-out;
+    -webkit-animation-iteration-count: infinite;
+    -webkit-animation-duration: 21s;
+    -moz-animation-name: cf4FadeInOut1;
+    -moz-animation-timing-function: ease-in-out;
+    -moz-animation-iteration-count: infinite;
+    -moz-animation-duration: 21s;
+    -o-animation-name: cf4FadeInOut1;
+    -o-animation-timing-function: ease-in-out;
+    -o-animation-iteration-count: infinite;
+    -o-animation-duration: 21s;
+    animation-name: cf4FadeInOut1;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+    animation-duration: 21s;
+}
+
+.imagem1 img {
+    -webkit-animation-name: cf4FadeInOut1;
+    -moz-animation-name: cf4FadeInOut1;
+    -o-animation-name: cf4FadeInOut1;
+    animation-name: cf4FadeInOut1;
+}
+
+.container-textos .texto1 h2{
+    -webkit-animation-name: cf4FadeInOut1_text;
+    -moz-animation-name: cf4FadeInOut1_text;
+    -o-animation-name: cf4FadeInOut1_text;
+    animation-name: cf4FadeInOut1_text;
+}
+
+.imagem2 img {
+    -webkit-animation-name: cf4FadeInOut2;
+    -moz-animation-name: cf4FadeInOut2;
+    -o-animation-name: cf4FadeInOut2;
+    animation-name: cf4FadeInOut2;
+}
+
+.container-textos .texto2 h2{
+    -webkit-animation-name: cf4FadeInOut2_text;
+    -moz-animation-name: cf4FadeInOut2_text;
+    -o-animation-name: cf4FadeInOut2_text;
+    animation-name: cf4FadeInOut2_text;
+}
+
+.imagem3 img {
+    -webkit-animation-name: cf4FadeInOut3;
+    -moz-animation-name: cf4FadeInOut3;
+    -o-animation-name: cf4FadeInOut3;
+    animation-name: cf4FadeInOut3;
+}
+
+.container-textos .texto3 h2{
+    -webkit-animation-name: cf4FadeInOut3_text;
+    -moz-animation-name: cf4FadeInOut3_text;
+    -o-animation-name: cf4FadeInOut3_text;
+    animation-name: cf4FadeInOut3_text;
+}
